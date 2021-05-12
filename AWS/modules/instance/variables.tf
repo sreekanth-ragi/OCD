@@ -5,11 +5,14 @@ variable "env" {
 		default = "DevOps"
 
 }
-variable key_name {}
-variable sg_id {}
-variable pub_net_id {}
-variable pvt_net_id {}
+//variable key_name {}
+variable sg_id {
+}
+variable pub_net_id {
+}
+variable pvt_net_id {
+}
 variable is_public {
 		default = "false"
 }
-variable count {}
+variable instance_count {}

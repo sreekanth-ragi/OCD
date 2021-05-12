@@ -18,3 +18,14 @@ variable "pvt_cidr_block" {
 variable "az_zones" {
 	default = ["ap-south-1a", "ap-south-1b", "ap-south-1c"]
 }
+variable "ami_id" {
+	default =	"ami-01c76ebfe68e7fc45"
+}
+variable "instance_type" {
+	default = "t2.micro"
+}
+variable "instance_count" {
+	default = 1
+
+}
+//variable "key_name" {}
