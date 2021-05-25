@@ -1,0 +1,14 @@
+#cloud-config
+
+packages:
+  - wget
+  - curl 
+  - epel-repo
+  - ansible
+
+users:
+  - default
+  - name: devops
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQCQyZ+d6gPjMEwTttGLF6a+jfI2BbLUPKuvomfORXFC5n//cXako6hJwu7mALV0j5wFli92GCIjLpSU74SDqkI5L+IXd1qkDUhUKQ8utAH22qjdX0gX79wxX5gEsOavwZDxDp26ZhLCRcFSxugnwCBeXXsAiZw+rh9IAQIAHLr9SQ==

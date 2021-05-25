@@ -1,0 +1,11 @@
+#cloud-config
+
+packages:
+  - wget
+  - curl 
+  - epel-repo
+
+users:
+  - default
+  - name: ansible
+    sudo: ALL=(ALL) NOPASSWD:ALL
