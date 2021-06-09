@@ -2,24 +2,24 @@ variable "ami_id" {}
 variable "instance_type" {}
 variable "hostname" {}
 variable "env" {
-		default = "DevOps"
+	default = "DevOps"
 
 }
 variable key_name {
-		default = ""
+	default = ""
 }
 variable sg_id {
 }
 variable pub_net_id {
-		default = ""
+	default = ""
 }
 variable pvt_net_id {
-		default = ""
+	default = ""
 }
 variable is_public {
-		default = "false"
+	default = "false"
 }
 variable instance_count {}
 variable user_data {
-		default = ""
+	default = ""
 }
